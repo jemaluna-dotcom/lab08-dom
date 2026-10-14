@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Notas</title>
+  <style>
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Registro de Notas de Estudiante</h1>
+
+  <input type="text" id="nombre" placeholder="Nombre del estudiante">
+  <input type="number" id="nota1" placeholder="Nota 1" min="0" max="20">
+  <input type="number" id="nota2" placeholder="Nota 2" min="0" max="20">
+  <input type="number" id="nota3" placeholder="Nota 3" min="0" max="20">
+  <input type="number" id="nota4" placeholder="Nota 4" min="0" max="20">
+  <button id="btnAgregar">Agregar</button>
+
+  <p id="mensaje"></p>
+  <ul id="listaEstudiantes"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
